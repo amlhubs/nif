@@ -1,0 +1,20 @@
+Proprietary — All Rights Reserved
+
+Copyright (c) 2026 amlhubs
+
+This software is proprietary and confidential. Unauthorized copying,
+distribution, modification, or use of this package, in whole or in part,
+via any medium, is strictly prohibited without prior written permission.
+
+The package is published as UNLICENSED on the GitHub Packages registry
+under the @amlhubs scope. Access requires explicit authorization.
+
+NIF 2.0 itself (the underlying ontology and specification) is the work of
+the W3C BP-MLOD Community Group and is published at
+https://persistence.uni-leipzig.org/nlp2rdf/. This TypeScript surface is
+an independent re-statement of the NIF 2.0 ontology shape; consult the
+upstream specification for normative semantics and any applicable
+upstream license terms.
+
+For licensing inquiries, contact the amlhubs maintainers via
+https://github.com/amlhubs.

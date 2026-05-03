@@ -1,0 +1,48 @@
+{
+  "name": "@amlhubs/nif",
+  "version": "0.0.1",
+  "description": "NIF 2.0 — NLP Interchange Format. W3C BP-MLOD Community Group / persistence.uni-leipzig.org. RDF/OWL ontology providing a substring-offset URI scheme (RFC 5147 #char=begin,end) for interoperable interchange of NLP annotations across tools, plus the nif-core class hierarchy (Context / String / Word / Phrase / Sentence / Title / Paragraph / Annotation) and the offset/anchor/superString/subString/nextWord/previousWord property surface. Authority caveat: academic hosting at Leipzig (AKSW/InfAI), no chartered W3C WG — see README §Authority.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "restricted"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amlhubs/nif.git",
+    "directory": "."
+  },
+  "keywords": [
+    "nif",
+    "nif-2.0",
+    "nlp-interchange-format",
+    "nlp-annotation",
+    "rdf",
+    "owl",
+    "w3c",
+    "bp-mlod",
+    "metamodel",
+    "agentic-modeling-language",
+    "aml",
+    "agenihub",
+    "amlhubs"
+  ],
+  "license": "UNLICENSED",
+  "peerDependencies": {
+    "@amlhubs/uml": "^0.0.1",
+    "@amlhubs/mof": "^0.0.1",
+    "@amlhubs/ontolex": "^0.0.1"
+  }
+}
