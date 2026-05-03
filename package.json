@@ -42,7 +42,6 @@
   "license": "UNLICENSED",
   "peerDependencies": {
     "@amlhubs/uml": "^0.0.1",
-    "@amlhubs/mof": "^0.0.1",
-    "@amlhubs/ontolex": "^0.0.1"
+    "@amlhubs/mof": "^0.0.1"
   }
 }
